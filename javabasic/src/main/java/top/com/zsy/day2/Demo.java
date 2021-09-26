@@ -4,7 +4,7 @@ import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 
 
-@Log
+@Slf4j
 public class Demo {
     private static int staticVar = 1024;
     private String instanceVar = "hello";
@@ -16,13 +16,10 @@ public class Demo {
     }
 
     public static void main(String[] args) {
-        log.info("localVar before:{}",localVar);
+        log.info("localVar before:{}",staticVar);
         staticVar= 2048;
-        log.info("localVar after:{}",localVar);
-        VariableDemo vd=new VariableDemo();
-        log.info("localVar before:{}",vd.instanceVar);
-        vd.info("staticVar after:{}",vd.instanceVar);
-        vd.method();
+        log.info("localVar after:{}",staticVar);
+
 
     }
 }
