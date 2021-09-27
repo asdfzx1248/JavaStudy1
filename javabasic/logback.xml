@@ -7,7 +7,7 @@
         </encoder>
     </appender>
 
-    <logger name="top.mqxu.java.basic" level="INFO"/>
+    <logger name="top.com.zsy.day3" level="INFO"/>
 
     <root level="INFO">
         <appender-ref ref="CONSOLE"/>
