@@ -7,7 +7,7 @@
         </encoder>
     </appender>
 
-    <logger name="top.com.zsy.day3" level="INFO"/>
+    <logger name="top.com.zsy" level="INFO"/>
 
     <root level="INFO">
         <appender-ref ref="CONSOLE"/>
