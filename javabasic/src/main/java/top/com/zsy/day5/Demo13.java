@@ -50,5 +50,6 @@ public class Demo13 {
         log.info("c |= a = " + c);
 
 
+
     }
 }

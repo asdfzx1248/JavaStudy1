@@ -13,5 +13,6 @@ public class Demo6 {
         log.info("x < y = " + (x < y));
         log.info("x >= y = " + (x >= y));
         log.info("x <= y = " + (x <= y));
+
     }
 }
